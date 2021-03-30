@@ -1,6 +1,25 @@
 // ==================================================
 // DEFINE FUNCTION(S)
 // ==================================================
+
+function sum(num1, num2) {
+  return num1 + num2;
+}
+
+function difference(num1, num2) {
+  return num1 - num2;
+}
+
+function product(num1, num2) {
+  return num1 * num2;
+}
+
+function quotient(num1, num2) {
+  return num1 / num2;
+}
+
+
+
 function calc() {
 
 }
@@ -38,9 +57,9 @@ try {
 
   console.log('All tests passed successfully.');
 
-// ==================================================
-// PRINT ERRORS
-// ==================================================
+  // ==================================================
+  // PRINT ERRORS
+  // ==================================================
 } catch (e) {
   console.warn('Whoops, the following test did not pass:');
   console.error(e.message);
