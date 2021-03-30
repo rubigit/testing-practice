@@ -25,6 +25,10 @@ function calc(operation, num1, num2) {
       break;
     case 'subtract': return difference(num1, num2);
       break;
+    case 'multiply': return product(num1, num2);
+      break;
+    case 'divide': return quotient(num1, num2);
+      break;
   }
 }
 
