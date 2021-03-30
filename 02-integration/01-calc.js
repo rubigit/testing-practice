@@ -29,6 +29,8 @@ function calc(operation, num1, num2) {
       break;
     case 'divide': return quotient(num1, num2);
       break;
+    default: return 'Operation not supported';
+      break;
   }
 }
 
